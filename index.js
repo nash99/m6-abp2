@@ -5,6 +5,13 @@ let ano;
 let mes;
 let dia;
 let total;
+let signos= [
+    ['aries','tauro'],
+    ['descripcion 1','descripcion 2']
+];
+
+console.log(signos[0][0]);
+console.log(signos[1][0]);
 
 app.listen(3000,()=>{
     console.log('Servicio levantado puerto 3000')
